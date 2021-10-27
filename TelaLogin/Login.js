@@ -21,7 +21,7 @@ export default function (props) {
       return console.warn(`User ${username} was not found`);
     }
 
-    props.aoModificar(true);
+    props.atSuccessLogin(true);
   };
 
   return (
